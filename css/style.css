@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.continer{
+    width: 1190px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    border-color: aliceblue;
+}
+
+a{
+   text-decoration: none; 
+   color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.buisnes-info{
+    padding: 70px;
+    margin-top: 70px;
+    margin-top: -520px;
+}
+
+.buisnes-info h1{
+    padding-bottom: 20px;
+    color: #252B42;
+    font-size: 60px;
+}
+
+.buisnes-info p{
+    padding-bottom: 25px;
+    color: #737373;
+    font-size: 25px;
+}
+
+
+.buisnes-info .b1{
+  border-radius: 30px;
+  padding: 9px;
+  font-size: 20px;
+    background-color: orange;
+color: aliceblue;
+}
+
+.buisnes-info .b2{
+    border-radius: 20px;
+    padding: 9px;
+    font-size: 20px;
+    border: 2px solid blue;
+    color: blue;
+    background-color: transparent;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+#About{
+    background-color: aliceblue;
+}
+
+.info h1{
+    text-align: center;
+}
+
+.par{
+    text-align: center;
+}
+
+.img1{
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+  
+}
+
+.dpng1{
+    border: 5px solid black;
+      border-radius: 20px;
+}
+
+.dpng2{
+    border: 5px solid black;
+  border-radius: 20px;
+}
+
+.dpng3{
+    border: 5px solid black;
+      border-radius: 20px;
+}
+
+.dpng4{
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+#advice{
+    background-color: aliceblue;
+}
+
+.advice-infos h1{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 40px;
+}
+
+.advice-infos .par{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.cards{
+    display: flex;
+    padding-top: 30px;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card{
+    border: 3px solid black;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.card h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+
+.card p{
+     padding-bottom: 10px;
+}
+
+#most{
+    background-color: aliceblue;
+}
+
+.most-title h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.most-title .p{
+    text-align: center;
+    padding-bottom: 100px;
+    font-size: 20px;
+}
+
+.most-image{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding: 30px;
+}
+
+#images-section{
+    background-color: aliceblue;
+}
+
+.immages{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coments{
+display: flex;
+background-color: #252B42;
+color: aliceblue;
+justify-content: center;
+align-items: center;
+margin-bottom: 30px;
+margin-top: 30px;
+}
+
+.coments .buttons{
+background-color: orange;
+border-radius: 20px;
+padding: 7px;
+margin-bottom: 30px;
+margin-top: 30px;
+}
+
+.coments input{
+    margin-left: 190px;
+border-radius: 20px;
+padding: 7px;
+color: black;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+
+#contact{
+    background-color: aliceblue;
+}
+
+.contact-info{
+    text-align: center;
+}
+
+.contact-image{
+    padding-top: 40px;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+.contact-image .i1{
+    gap: 20px;
+}
+
+#inputs{
+    background-color: aliceblue;
+    padding-top: 90px;
+}
+
+.imput1{
+    padding: 15px;
+    border-radius: 20px;
+    width: 1200px;
+    margin-bottom: 25px;
+}
+
+.imput2{
+    padding: 15px;
+        border-radius: 20px;
+           width: 1200px;
+               margin-bottom: 25px;
+}
+
+.imput3{
+    padding: 15px;
+        border-radius: 20px;
+           width: 1200px;
+               margin-bottom: 25px;
+}
+
+.imput4{
+    padding: 15px;
+    padding-bottom: 30px;
+        border-radius: 20px;
+           width: 1200px;
+               margin-bottom: 25px;
+}
+
+.actions{
+    text-align: center;
+    justify-content: space-between;
+    align-items: center; 
+    padding-bottom: 50px;
+}
+
+
+
+#footer {
+    background: #1f6f78;
+    color: white;
+    padding: 40px 80px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer h4 {
+    margin-bottom: 15px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer ul li:hover {
+    text-decoration: underline;
+}
+
+.contact p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.socials i {
+    margin-left: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
